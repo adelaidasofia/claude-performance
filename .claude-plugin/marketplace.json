@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "claude-performance",
+  "owner": {
+    "name": "Mycelium AI",
+    "url": "https://myceliumai.co"
+  },
+  "plugins": [
+    {
+      "name": "claude-performance",
+      "source": "./",
+      "description": "Weekly performance digest for Claude Code. Reads JSONL session data, computes six effectiveness metrics (activity mix, one-shot edit rate, subagent turn count, model mix, project allocation, hookify firings), fires diagnostic rules, and writes behavioral rules into CLAUDE.md so future sessions adapt. Measurement layer for self-improving AI workflows."
+    }
+  ]
+}

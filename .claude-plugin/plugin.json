@@ -1,9 +1,10 @@
 {
-  "name": "performance",
+  "name": "claude-performance",
   "description": "Weekly performance digest for Claude Code. Reads JSONL session data, computes six effectiveness metrics (activity mix, one-shot edit rate, subagent turn count, model mix, project allocation, hookify firings), fires diagnostic rules, and writes behavioral rules into CLAUDE.md so future sessions adapt. Measurement layer for self-improving AI workflows.",
   "version": "1.0.0",
   "author": {
-    "name": "Adelaida Diaz-Roa"
+    "name": "Mycelium AI",
+    "url": "https://myceliumai.co"
   },
   "repository": "https://github.com/adelaidasofia/claude-performance",
   "license": "MIT"
