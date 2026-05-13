@@ -34,6 +34,15 @@ Next week the digest re-measures. If the number moved, the rule worked. If it di
 
 ## Install
 
+Open Claude Code, paste:
+
+    /plugin marketplace add adelaidasofia/claude-performance
+    /plugin install claude-performance@claude-performance
+
+Then copy `scripts/claude_performance_digest.py` into your vault at `<vault>/⚙️ Meta/scripts/`. The script self-locates via `__file__` and expects that path.
+
+<details><summary>Legacy install</summary>
+
 ```bash
 claude plugin add github.com/adelaidasofia/claude-performance
 ```
@@ -45,7 +54,7 @@ git clone https://github.com/adelaidasofia/claude-performance ~/.claude/plugins/
 claude plugin add ~/.claude/plugins/claude-performance
 ```
 
-Then copy `scripts/claude_performance_digest.py` into your vault at `<vault>/⚙️ Meta/scripts/`. The script self-locates via `__file__` and expects that path.
+</details>
 
 ---
 
