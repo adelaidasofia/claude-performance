@@ -1,5 +1,18 @@
 # claude-performance
 
+
+<!-- mycelium-badges:start -->
+
+<p>
+  <a href="https://github.com/adelaidasofia/claude-performance/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/adelaidasofia/claude-performance?color=blue"></a>
+  <a href="https://github.com/adelaidasofia/claude-performance/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/adelaidasofia/claude-performance?color=eab308"></a>
+  <a href="https://github.com/adelaidasofia/claude-performance/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/adelaidasofia/claude-performance"></a>
+  <a href="https://github.com/adelaidasofia/claude-performance/issues"><img alt="Open issues" src="https://img.shields.io/github/issues/adelaidasofia/claude-performance"></a>
+  <a href="https://myceliumai.co"><img alt="Built by Mycelium AI" src="https://img.shields.io/badge/built_by-Mycelium_AI-15B89A"></a>
+</p>
+
+<!-- mycelium-badges:end -->
+
 A Claude Code plugin that turns session telemetry into self-improving behavioral rules.
 
 Reads JSONL session data from `~/.claude/projects/`, computes six effectiveness metrics, and when diagnostics fire, writes permanent rules into `~/.claude/CLAUDE.md` so future sessions adapt. Measurement layer for self-improving AI workflows.
